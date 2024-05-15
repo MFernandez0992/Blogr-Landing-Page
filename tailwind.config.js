@@ -19,10 +19,16 @@ export default {
       'ubuntu': 'ubuntu',
       'overpass': 'Overpass'
     },
-    screens: {
-      'mobile': '375px',
-      'desktop': '1440px',
+    backgroundImage: {
+      'illustration-editor-desktop': "url('/src/assets/illustration-editor-desktop.svg')",
+      'pattern-circles': "url('/src/assets/bg-pattern-circles.svg')"
     },
+    backgroundSize: {
+      '50': '50%'
+    },
+    backgroundPosition: {
+      'right-bottom': 'right bottom 1rem',
+    }
   },
   plugins: [],
 }

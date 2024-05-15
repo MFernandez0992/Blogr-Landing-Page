@@ -1,8 +1,14 @@
+import About from "./components/About";
+import Banner from "./components/Banner";
+import Hero from "./components/Hero";
+
 function App() {
   
   return (
     <>
-      <h1 className="text-primary-veryDarkBlue font-overpass text-3xl">Hola</h1>
+      <Hero />
+      <About />
+      <Banner />
     </>
   )
 }
