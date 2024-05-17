@@ -2,7 +2,7 @@ import { logo } from "../assets/img"
 
 const Header = () => {
   return (
-    <header className="flex justify-between gap-10 items-center m-auto pt-10 w-[375px] md:w-[1440px]">
+    <header className="flex justify-between gap-10 items-center m-auto pt-10 px-24">
         <div className="w-24">
             <img src={logo} className="" />
         </div>

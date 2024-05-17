@@ -2,7 +2,7 @@ import Header from "./Header"
 
 const Hero = () => {
   return (
-    <section className="bg-primary-lightRed">
+    <section className="bg-primary-lightRed rounded-bl-[80px] bg-bg-pattern-intro-desktop bg-100 bg-top-right bg-no-repeat">
         <Header />
         <div className="text-white text-center flex flex-col items-center justify-center gap-9 h-96 ">
             <div className="flex flex-col gap-2">

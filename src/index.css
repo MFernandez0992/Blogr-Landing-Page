@@ -9,3 +9,16 @@
     background: url('../src/assets/bg-pattern-intro-desktop.svg');
     background-size: cover;
 }
+
+
+.titleH2{
+    @apply text-primary-veryDarkBlue text-2xl font-semibold font-overpass
+}
+
+.parrafo{
+    @apply text-neutral-VeryDarkGrayishBlue font-overpass
+}
+
+.textContainer{
+    @apply flex flex-col gap-4 md:w-[510px]
+}
